@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F6764DE1DB9633C0000F357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6764DD1DB9633C0000F357 /* main.m */; };
+		3F6764E11DB9633C0000F357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6764E01DB9633C0000F357 /* AppDelegate.m */; };
+		3F6764E41DB9633C0000F357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6764E31DB9633C0000F357 /* ViewController.m */; };
+		3F6764E71DB9633C0000F357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6764E51DB9633C0000F357 /* Main.storyboard */; };
+		3F6764E91DB9633C0000F357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6764E81DB9633C0000F357 /* Assets.xcassets */; };
+		3F6764EC1DB9633C0000F357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6764EA1DB9633C0000F357 /* LaunchScreen.storyboard */; };
+		3F6764F71DB9633C0000F357 /* SampleApp_WatchApp_QBOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6764F61DB9633C0000F357 /* SampleApp_WatchApp_QBOTests.m */; };
+		3F6765021DB9633C0000F357 /* SampleApp_WatchApp_QBOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6765011DB9633C0000F357 /* SampleApp_WatchApp_QBOUITests.m */; };
+		3F6765071DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F6765061DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit App.app */; };
+		3F67650D1DB9633C0000F357 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F67650B1DB9633C0000F357 /* Interface.storyboard */; };
+		3F67650F1DB9633C0000F357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F67650E1DB9633C0000F357 /* Assets.xcassets */; };
+		3F6765161DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F6765151DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F67651C1DB9633C0000F357 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F67651B1DB9633C0000F357 /* InterfaceController.m */; };
+		3F67651F1DB9633C0000F357 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F67651E1DB9633C0000F357 /* ExtensionDelegate.m */; };
+		3F6765211DB9633C0000F357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6765201DB9633C0000F357 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F6764F31DB9633C0000F357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6764D11DB9633C0000F357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6764D81DB9633C0000F357;
+			remoteInfo = "SampleApp-WatchApp-QBO";
+		};
+		3F6764FE1DB9633C0000F357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6764D11DB9633C0000F357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6764D81DB9633C0000F357;
+			remoteInfo = "SampleApp-WatchApp-QBO";
+		};
+		3F6765081DB9633C0000F357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6764D11DB9633C0000F357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6765051DB9633C0000F357;
+			remoteInfo = "SampleApp-WatchApp-QBO WatchKit App";
+		};
+		3F6765171DB9633C0000F357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F6764D11DB9633C0000F357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6765141DB9633C0000F357;
+			remoteInfo = "SampleApp-WatchApp-QBO WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F6765281DB9633C0000F357 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F6765161DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F67652C1DB9633C0000F357 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F6765071DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F6764D91DB9633C0000F357 /* SampleApp-WatchApp-QBO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp-WatchApp-QBO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6764DD1DB9633C0000F357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F6764DF1DB9633C0000F357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F6764E01DB9633C0000F357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F6764E21DB9633C0000F357 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F6764E31DB9633C0000F357 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F6764E61DB9633C0000F357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F6764E81DB9633C0000F357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6764EB1DB9633C0000F357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F6764ED1DB9633C0000F357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6764F21DB9633C0000F357 /* SampleApp-WatchApp-QBOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SampleApp-WatchApp-QBOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6764F61DB9633C0000F357 /* SampleApp_WatchApp_QBOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleApp_WatchApp_QBOTests.m; sourceTree = "<group>"; };
+		3F6764F81DB9633C0000F357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6764FD1DB9633C0000F357 /* SampleApp-WatchApp-QBOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SampleApp-WatchApp-QBOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6765011DB9633C0000F357 /* SampleApp_WatchApp_QBOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleApp_WatchApp_QBOUITests.m; sourceTree = "<group>"; };
+		3F6765031DB9633C0000F357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6765061DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp-WatchApp-QBO WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F67650C1DB9633C0000F357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3F67650E1DB9633C0000F357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6765101DB9633C0000F357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6765151DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SampleApp-WatchApp-QBO WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F67651A1DB9633C0000F357 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		3F67651B1DB9633C0000F357 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		3F67651D1DB9633C0000F357 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		3F67651E1DB9633C0000F357 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		3F6765201DB9633C0000F357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6765221DB9633C0000F357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F6764D61DB9633C0000F357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6764EF1DB9633C0000F357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6764FA1DB9633C0000F357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6765121DB9633C0000F357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6764D01DB9633C0000F357 = {
+			isa = PBXGroup;
+			children = (
+				3F6764DB1DB9633C0000F357 /* SampleApp-WatchApp-QBO */,
+				3F6764F51DB9633C0000F357 /* SampleApp-WatchApp-QBOTests */,
+				3F6765001DB9633C0000F357 /* SampleApp-WatchApp-QBOUITests */,
+				3F67650A1DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit App */,
+				3F6765191DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit Extension */,
+				3F6764DA1DB9633C0000F357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F6764DA1DB9633C0000F357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F6764D91DB9633C0000F357 /* SampleApp-WatchApp-QBO.app */,
+				3F6764F21DB9633C0000F357 /* SampleApp-WatchApp-QBOTests.xctest */,
+				3F6764FD1DB9633C0000F357 /* SampleApp-WatchApp-QBOUITests.xctest */,
+				3F6765061DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit App.app */,
+				3F6765151DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F6764DB1DB9633C0000F357 /* SampleApp-WatchApp-QBO */ = {
+			isa = PBXGroup;
+			children = (
+				3F6764DF1DB9633C0000F357 /* AppDelegate.h */,
+				3F6764E01DB9633C0000F357 /* AppDelegate.m */,
+				3F6764E21DB9633C0000F357 /* ViewController.h */,
+				3F6764E31DB9633C0000F357 /* ViewController.m */,
+				3F6764E51DB9633C0000F357 /* Main.storyboard */,
+				3F6764E81DB9633C0000F357 /* Assets.xcassets */,
+				3F6764EA1DB9633C0000F357 /* LaunchScreen.storyboard */,
+				3F6764ED1DB9633C0000F357 /* Info.plist */,
+				3F6764DC1DB9633C0000F357 /* Supporting Files */,
+			);
+			path = "SampleApp-WatchApp-QBO";
+			sourceTree = "<group>";
+		};
+		3F6764DC1DB9633C0000F357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F6764DD1DB9633C0000F357 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F6764F51DB9633C0000F357 /* SampleApp-WatchApp-QBOTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6764F61DB9633C0000F357 /* SampleApp_WatchApp_QBOTests.m */,
+				3F6764F81DB9633C0000F357 /* Info.plist */,
+			);
+			path = "SampleApp-WatchApp-QBOTests";
+			sourceTree = "<group>";
+		};
+		3F6765001DB9633C0000F357 /* SampleApp-WatchApp-QBOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F6765011DB9633C0000F357 /* SampleApp_WatchApp_QBOUITests.m */,
+				3F6765031DB9633C0000F357 /* Info.plist */,
+			);
+			path = "SampleApp-WatchApp-QBOUITests";
+			sourceTree = "<group>";
+		};
+		3F67650A1DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3F67650B1DB9633C0000F357 /* Interface.storyboard */,
+				3F67650E1DB9633C0000F357 /* Assets.xcassets */,
+				3F6765101DB9633C0000F357 /* Info.plist */,
+			);
+			path = "SampleApp-WatchApp-QBO WatchKit App";
+			sourceTree = "<group>";
+		};
+		3F6765191DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F67651A1DB9633C0000F357 /* InterfaceController.h */,
+				3F67651B1DB9633C0000F357 /* InterfaceController.m */,
+				3F67651D1DB9633C0000F357 /* ExtensionDelegate.h */,
+				3F67651E1DB9633C0000F357 /* ExtensionDelegate.m */,
+				3F6765201DB9633C0000F357 /* Assets.xcassets */,
+				3F6765221DB9633C0000F357 /* Info.plist */,
+			);
+			path = "SampleApp-WatchApp-QBO WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F6764D81DB9633C0000F357 /* SampleApp-WatchApp-QBO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F67652D1DB9633C0000F357 /* Build configuration list for PBXNativeTarget "SampleApp-WatchApp-QBO" */;
+			buildPhases = (
+				3F6764D51DB9633C0000F357 /* Sources */,
+				3F6764D61DB9633C0000F357 /* Frameworks */,
+				3F6764D71DB9633C0000F357 /* Resources */,
+				3F67652C1DB9633C0000F357 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6765091DB9633C0000F357 /* PBXTargetDependency */,
+			);
+			name = "SampleApp-WatchApp-QBO";
+			productName = "SampleApp-WatchApp-QBO";
+			productReference = 3F6764D91DB9633C0000F357 /* SampleApp-WatchApp-QBO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F6764F11DB9633C0000F357 /* SampleApp-WatchApp-QBOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6765301DB9633C0000F357 /* Build configuration list for PBXNativeTarget "SampleApp-WatchApp-QBOTests" */;
+			buildPhases = (
+				3F6764EE1DB9633C0000F357 /* Sources */,
+				3F6764EF1DB9633C0000F357 /* Frameworks */,
+				3F6764F01DB9633C0000F357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6764F41DB9633C0000F357 /* PBXTargetDependency */,
+			);
+			name = "SampleApp-WatchApp-QBOTests";
+			productName = "SampleApp-WatchApp-QBOTests";
+			productReference = 3F6764F21DB9633C0000F357 /* SampleApp-WatchApp-QBOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F6764FC1DB9633C0000F357 /* SampleApp-WatchApp-QBOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6765331DB9633C0000F357 /* Build configuration list for PBXNativeTarget "SampleApp-WatchApp-QBOUITests" */;
+			buildPhases = (
+				3F6764F91DB9633C0000F357 /* Sources */,
+				3F6764FA1DB9633C0000F357 /* Frameworks */,
+				3F6764FB1DB9633C0000F357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6764FF1DB9633C0000F357 /* PBXTargetDependency */,
+			);
+			name = "SampleApp-WatchApp-QBOUITests";
+			productName = "SampleApp-WatchApp-QBOUITests";
+			productReference = 3F6764FD1DB9633C0000F357 /* SampleApp-WatchApp-QBOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3F6765051DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6765291DB9633C0000F357 /* Build configuration list for PBXNativeTarget "SampleApp-WatchApp-QBO WatchKit App" */;
+			buildPhases = (
+				3F6765041DB9633C0000F357 /* Resources */,
+				3F6765281DB9633C0000F357 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6765181DB9633C0000F357 /* PBXTargetDependency */,
+			);
+			name = "SampleApp-WatchApp-QBO WatchKit App";
+			productName = "SampleApp-WatchApp-QBO WatchKit App";
+			productReference = 3F6765061DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3F6765141DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6765251DB9633C0000F357 /* Build configuration list for PBXNativeTarget "SampleApp-WatchApp-QBO WatchKit Extension" */;
+			buildPhases = (
+				3F6765111DB9633C0000F357 /* Sources */,
+				3F6765121DB9633C0000F357 /* Frameworks */,
+				3F6765131DB9633C0000F357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SampleApp-WatchApp-QBO WatchKit Extension";
+			productName = "SampleApp-WatchApp-QBO WatchKit Extension";
+			productReference = 3F6765151DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F6764D11DB9633C0000F357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "De Rose, Diana";
+				TargetAttributes = {
+					3F6764D81DB9633C0000F357 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3F6764F11DB9633C0000F357 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F6764D81DB9633C0000F357;
+					};
+					3F6764FC1DB9633C0000F357 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F6764D81DB9633C0000F357;
+					};
+					3F6765051DB9633C0000F357 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3F6765141DB9633C0000F357 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F6764D41DB9633C0000F357 /* Build configuration list for PBXProject "SampleApp-WatchApp-QBO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F6764D01DB9633C0000F357;
+			productRefGroup = 3F6764DA1DB9633C0000F357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F6764D81DB9633C0000F357 /* SampleApp-WatchApp-QBO */,
+				3F6764F11DB9633C0000F357 /* SampleApp-WatchApp-QBOTests */,
+				3F6764FC1DB9633C0000F357 /* SampleApp-WatchApp-QBOUITests */,
+				3F6765051DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit App */,
+				3F6765141DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F6764D71DB9633C0000F357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6764EC1DB9633C0000F357 /* LaunchScreen.storyboard in Resources */,
+				3F6764E91DB9633C0000F357 /* Assets.xcassets in Resources */,
+				3F6764E71DB9633C0000F357 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6764F01DB9633C0000F357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6764FB1DB9633C0000F357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6765041DB9633C0000F357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F67650F1DB9633C0000F357 /* Assets.xcassets in Resources */,
+				3F67650D1DB9633C0000F357 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6765131DB9633C0000F357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6765211DB9633C0000F357 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F6764D51DB9633C0000F357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6764E41DB9633C0000F357 /* ViewController.m in Sources */,
+				3F6764E11DB9633C0000F357 /* AppDelegate.m in Sources */,
+				3F6764DE1DB9633C0000F357 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6764EE1DB9633C0000F357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6764F71DB9633C0000F357 /* SampleApp_WatchApp_QBOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6764F91DB9633C0000F357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6765021DB9633C0000F357 /* SampleApp_WatchApp_QBOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6765111DB9633C0000F357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F67651F1DB9633C0000F357 /* ExtensionDelegate.m in Sources */,
+				3F67651C1DB9633C0000F357 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F6764F41DB9633C0000F357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6764D81DB9633C0000F357 /* SampleApp-WatchApp-QBO */;
+			targetProxy = 3F6764F31DB9633C0000F357 /* PBXContainerItemProxy */;
+		};
+		3F6764FF1DB9633C0000F357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6764D81DB9633C0000F357 /* SampleApp-WatchApp-QBO */;
+			targetProxy = 3F6764FE1DB9633C0000F357 /* PBXContainerItemProxy */;
+		};
+		3F6765091DB9633C0000F357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6765051DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit App */;
+			targetProxy = 3F6765081DB9633C0000F357 /* PBXContainerItemProxy */;
+		};
+		3F6765181DB9633C0000F357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6765141DB9633C0000F357 /* SampleApp-WatchApp-QBO WatchKit Extension */;
+			targetProxy = 3F6765171DB9633C0000F357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F6764E51DB9633C0000F357 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6764E61DB9633C0000F357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F6764EA1DB9633C0000F357 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F6764EB1DB9633C0000F357 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3F67650B1DB9633C0000F357 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F67650C1DB9633C0000F357 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F6765231DB9633C0000F357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F6765241DB9633C0000F357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F6765261DB9633C0000F357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "SampleApp-WatchApp-QBO WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dderose.SampleApp-WatchApp-QBO.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		3F6765271DB9633C0000F357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "SampleApp-WatchApp-QBO WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dderose.SampleApp-WatchApp-QBO.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		3F67652A1DB9633C0000F357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SampleApp_WatchApp_QBO_WatchKit_Extension;
+				INFOPLIST_FILE = "SampleApp-WatchApp-QBO WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "dderose.SampleApp-WatchApp-QBO.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		3F67652B1DB9633C0000F357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SampleApp_WatchApp_QBO_WatchKit_Extension;
+				INFOPLIST_FILE = "SampleApp-WatchApp-QBO WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "dderose.SampleApp-WatchApp-QBO.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		3F67652E1DB9633C0000F357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SampleApp-WatchApp-QBO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dderose.SampleApp-WatchApp-QBO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F67652F1DB9633C0000F357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SampleApp-WatchApp-QBO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dderose.SampleApp-WatchApp-QBO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F6765311DB9633C0000F357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SampleApp-WatchApp-QBOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dderose.SampleApp-WatchApp-QBOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp-WatchApp-QBO.app/SampleApp-WatchApp-QBO";
+			};
+			name = Debug;
+		};
+		3F6765321DB9633C0000F357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SampleApp-WatchApp-QBOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dderose.SampleApp-WatchApp-QBOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp-WatchApp-QBO.app/SampleApp-WatchApp-QBO";
+			};
+			name = Release;
+		};
+		3F6765341DB9633C0000F357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SampleApp-WatchApp-QBOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dderose.SampleApp-WatchApp-QBOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SampleApp-WatchApp-QBO";
+			};
+			name = Debug;
+		};
+		3F6765351DB9633C0000F357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SampleApp-WatchApp-QBOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dderose.SampleApp-WatchApp-QBOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SampleApp-WatchApp-QBO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6764D41DB9633C0000F357 /* Build configuration list for PBXProject "SampleApp-WatchApp-QBO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6765231DB9633C0000F357 /* Debug */,
+				3F6765241DB9633C0000F357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6765251DB9633C0000F357 /* Build configuration list for PBXNativeTarget "SampleApp-WatchApp-QBO WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6765261DB9633C0000F357 /* Debug */,
+				3F6765271DB9633C0000F357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F6765291DB9633C0000F357 /* Build configuration list for PBXNativeTarget "SampleApp-WatchApp-QBO WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F67652A1DB9633C0000F357 /* Debug */,
+				3F67652B1DB9633C0000F357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F67652D1DB9633C0000F357 /* Build configuration list for PBXNativeTarget "SampleApp-WatchApp-QBO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F67652E1DB9633C0000F357 /* Debug */,
+				3F67652F1DB9633C0000F357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F6765301DB9633C0000F357 /* Build configuration list for PBXNativeTarget "SampleApp-WatchApp-QBOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6765311DB9633C0000F357 /* Debug */,
+				3F6765321DB9633C0000F357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F6765331DB9633C0000F357 /* Build configuration list for PBXNativeTarget "SampleApp-WatchApp-QBOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6765341DB9633C0000F357 /* Debug */,
+				3F6765351DB9633C0000F357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F6764D11DB9633C0000F357 /* Project object */;
+}
